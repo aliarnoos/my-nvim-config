@@ -7,3 +7,4 @@ vim.o.expandtab = true -- Convert tabs to spaces
 vim.o.softtabstop = 4  -- Set the number of spaces a <Tab> counts for
 vim.o.autoindent = true -- Copy indentation from the previous line
 vim.o.smartindent = true -- Smart indentation for new lines
+vim.o.number = true
