@@ -1,1 +1,1 @@
-### a repo where I save my neovim config
+I save my neovim config here 
