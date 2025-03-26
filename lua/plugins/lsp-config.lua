@@ -12,14 +12,14 @@ return {
                 ensure_installed = {
                     'lua_ls',
                     'dockerls',
-                    'harper_ls',
                     'html',
                     'eslint',
                     'jsonls',
                     'grammarly',
                     'intelephense',
                     'sqlls',
-                    'zls'
+                    'zls',
+                    'gopls'
                 }
             })
         end
@@ -31,6 +31,7 @@ return {
             lspconfig.lua_ls.setup({})
             lspconfig.zls.setup({})
             lspconfig.intelephense.setup({})
+            lspconfig.gopls.setup({})
 
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
