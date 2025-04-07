@@ -19,7 +19,8 @@ return {
                     'intelephense',
                     'sqlls',
                     'zls',
-                    'gopls'
+                    'gopls',
+                    'phpactor'
                 }
             })
         end
@@ -32,6 +33,7 @@ return {
             lspconfig.zls.setup({})
             lspconfig.intelephense.setup({})
             lspconfig.gopls.setup({})
+            lspconfig.phpactor.setup({})
 
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
