@@ -5,7 +5,7 @@ return {
 		local treeConfig = require('nvim-treesitter.configs')
 
 		treeConfig.setup({
-			ensure_installed = {'javascript', 'lua', 'typescript', 'zig', 'php', 'go', 'markdown'},
+			ensure_installed = {'javascript', 'lua', 'typescript', 'zig', 'php', 'go', 'markdown', 'php'},
 			auto_install = true,
 			highlit = { enabled = true },
 			indent = { enabled = true }
